@@ -1,0 +1,136 @@
+body
+{
+  color:#333;
+  text-align:justify;
+  margin: auto;
+  background: #D7F8F8;
+  /*width: 960px;*/
+  font-family: 'Oswald',sans-serif;
+  margin: 0;
+  background-image:url("https://media.discordapp.net/attachments/793377620975943680/902943013683224646/unknown.png?width=762&height=473%22");
+  background-size: 100%;
+  font-size:1.33rem;
+  line-height: 1.4em;
+  overflow-x: hidden;
+}
+#titulo
+{
+  color: #545454;
+  font-size: 56pt;
+  font-weight: bold;
+  line-height: 1em;
+}
+.consejos
+{
+  font-size: 36pt;
+  background: #FFFFFF;
+  line-height: 1em;
+  font-weight: lighter;
+  list-style-image: url(viñeta.png);
+  border: 1px solid black;
+}
+/*.derecha
+{
+  text-align: right;
+}*/
+footer
+{
+  background:#F4F4F4;
+  font-weight: lighter;
+  font-size: 24pt;
+}
+.redes
+{
+  width:50px;
+}
+.container ul li{
+
+  display:inline-block;
+ 
+ }
+ 
+ .container ul li a{
+ 
+ display: block;
+ 
+ padding:4rem;
+ padding-top: 1rem;
+ padding-bottom: 1rem;
+ margin: 1.5em;
+ 
+ transition: all 0.4s linear;
+ 
+ border-radius: 5px;
+ 
+ }
+ 
+ 
+ .container ul li a:hover{
+ 
+  background:#13BB50;
+ 
+ }
+p{
+  margin-bottom:1.6em;
+ }
+ .container-footer-redes ul{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   text-align: right;
+   position: relative;
+   bottom: 4em;
+ }
+ 
+ .container-footer-redes{
+   text-align: left;
+ 
+ }
+ 
+ .container-footer-redes li a img{
+   width: 2em;
+   height: 2em;
+ 
+ }
+ 
+ .container-footer-redes ul li{
+ 
+  display:inline-block;
+ 
+ }
+ 
+ footer
+ {
+   background-color: #F4F4F4;
+   font-family: 'Oswald',sans-serif;   text-align: left;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    min-width: 100px;
+    margin-top: 9em;
+ 
+ }
+ .fondo-azul
+{
+  background: #407EFF;
+}
+.fondo-cielo
+{
+  background: #36CFFF;
+}
+.logo
+{
+  text-align: right;
+  margin: 0%;
+}
+/*
+list-style-image: url(https://northcentralus1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=png&cs=fFNQTw&docid=https%3A%2F%2Fupcedupe-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!VnyrfTdVfkeNllo4y_AQcaDXTZ95GXpJmbg1cSy1DZKcnZ1jRd1-SrgzbzcGD11u%2Fitems%2F012F7OKJQIHKWDFYY4ZJFYP7H5AL4J7XPJ%3Fversion%3DPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvdXBjZWR1cGUtbXkuc2hhcmVwb2ludC5jb21AMGUwY2IwNjAtMDlhZC00OWY1LWEwMDUtNjhiOWI0OWFhMWY2IiwiaXNzIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwIiwibmJmIjoiMTYzNTMwMzYwMCIsImV4cCI6IjE2MzUzMjUyMDAiLCJlbmRwb2ludHVybCI6IkVuVGRUdGN6R3ovMWFtRlpycG84YmJ1NDFIS3dScDFmVnhPd2M4T1NXWnc9IiwiZW5kcG9pbnR1cmxMZW5ndGgiOiIxMTgiLCJpc2xvb3BiYWNrIjoiVHJ1ZSIsInZlciI6Imhhc2hlZHByb29mdG9rZW4iLCJzaXRlaWQiOiJOMlJoWWpkak5UWXROVFV6TnkwME56ZGxMVGhrT1RZdE5XRXpPR05pWmpBeE1EY3giLCJuYW1laWQiOiIwIy5mfG1lbWJlcnNoaXB8dXJuJTNhc3BvJTNhYW5vbiNiODI1MDU1OGFjMDJmYzlhMjFiNTM2NGIzNWJhZDAyNWViYTZlMTk0ZWY1ZjQ1MjgzN2U1ODAxNjhhMjkwMWQwIiwibmlpIjoibWljcm9zb2Z0LnNoYXJlcG9pbnQiLCJpc3VzZXIiOiJ0cnVlIiwiY2FjaGVrZXkiOiIwaC5mfG1lbWJlcnNoaXB8dXJuJTNhc3BvJTNhYW5vbiNiODI1MDU1OGFjMDJmYzlhMjFiNTM2NGIzNWJhZDAyNWViYTZlMTk0ZWY1ZjQ1MjgzN2U1ODAxNjhhMjkwMWQwIiwic2hhcmluZ2lkIjoiM0hQRDRwNGF0RUtmZ29CZXRQUmxZQSIsInR0IjoiMCIsInVzZVBlcnNpc3RlbnRDb29raWUiOiIyIiwiaXBhZGRyIjoiMTc5LjYuMjA2LjIzMyJ9.alhzSXU1TnVrbkQ2QmlpUTNxMHcrVmM2enlESll5RGREUjlWV1d1d0pmdz0&cTag=%22c%3A%7B32AC3A08-1CE3-4BCA-87FC-FD02F89FDDE9%7D%2C1%22&encodeFailures=1&width=30&height=34&srcWidth=30&srcHeight=34);
+
+https://developer.mozilla.org/es/docs/Learn/CSS/Styling_text/Styling_lists
+https://carontestudio.com/blog/comentar-en-html-y-en-otros-lenguajes-de-programacion/#css
+https://cybmeta.com/em-y-rem
+https://www.mclibre.org/consultar/amaya/css/css-tamano.html
+https://support.microsoft.com/es-es/topic/c%C3%B3mo-quitar-el-subrayado-de-los-hiperv%C3%ADnculos-que-usan-frontpage-2003-4702ea91-395a-38d7-9cf7-04672ada2bbc
+https://flatuicolors.com/
+https://www.youtube.com/watch?v=W6GTDfrWjXs&t
+*/
