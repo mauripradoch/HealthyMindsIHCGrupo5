@@ -26,7 +26,7 @@ body
   background: #FFFFFF;
   line-height: 1em;
   font-weight: lighter;
-  list-style-image: url(viñeta.png);
+  list-style-image: url(../img/viñeta.png);
   border: 1px solid black;
 }
 /*.derecha
