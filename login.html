@@ -1,40 +1,35 @@
 <!DOCTYPE html>
-<html>
-<meta charset="utf-8">
-<head>
-    <title></title>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Inicio Sesión</title>
     <link rel="stylesheet" href="css/estiloregistro.css">
-</head>
-<body>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f5c8150755.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="img/logo_healthy_minds2.png">
+  </head>
+  <body>
+    <form class="formulario">
+      <h1>Iniciar Sesión</h1>
+      <div class="logo">
+        <center>
+        <a href="index.html"><img src="img/logo_healthy_minds2.png"></a>
+        </center>
+      </div>
+       <div class="container">
+         <div class="input-container">
+           <i class="fas fa-envelope icon"></i>
+           <input type="email" placeholder="Correo Electtrónico">
+         </div>
+         <div class="input-container">
+           <i class="fas fa-lock icon"></i>
+           <input type="password" placeholder="Contraseña">
+         </div>
+          <input type="submit" value="Inicia sesión" class="button" formtarget="index.html">
+          <p>Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad</p>
+          <p>¿No tienes una cuenta?&nbsp<a class="link" href="registro.html">Registrate</a></p>
+       </div>
 
-<div class="form" style="width:600px;height:650px">
-
-  <a href="index.html"><img class="imagen"  src="img/healthy.jpg"></a>
-
-        <div id="login">
-
-          <form action="/" method="post">
-
-            <div class="field-wrap">
-
-            <input placeholder="Correo Electrónico" type="email"required/>
-          </div>
-
-          <div class="field-wrap">
-
-            <input placeholder="Contraseña" type="password"required/>
-          </div>
-
-          <p class="forgot"><a href="#">¿Olvidaste tu contraseña?</a></p>
-
-          <button class="button button-block"/>Iniciar sesión</button>
-
-          </form>
-
-        </div>
-
-
-</div>
-
-</body>
+    </form>
+  </body>
 </html>

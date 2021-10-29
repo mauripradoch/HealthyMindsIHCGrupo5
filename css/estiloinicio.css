@@ -10,12 +10,16 @@
 body{
   font-family: 'Oswald',sans-serif;
   margin: 0;
-  background-image:url("https://media.discordapp.net/attachments/793377620975943680/902943013683224646/unknown.png?width=762&height=473");
+  background-image:url("../img/fondo.png");
   background-size: 100%;
   font-size:1.33rem;
  line-height: 1.4em;
  overflow-x: hidden;
-
+ background-size: cover;
+ background-attachment: fixed;
+ display:flex;
+ flex-direction: column;
+min-height: 100vh;
 }
 
 header a{
@@ -162,6 +166,6 @@ footer{
    border: 0;
    padding: 0;
    min-width: 100px;
-   margin-top: 9em;
+   margin-top: auto;
 
 }
